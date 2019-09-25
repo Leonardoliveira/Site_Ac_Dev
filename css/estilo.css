@@ -1,0 +1,338 @@
+:root {
+    --azul: #01A7C2;
+    --azulclaro: #85C7F2;
+    --cinzaclaro: #636363;
+    --cinzaescuro: #4C4C4C;
+    --branco: #ffffff;
+    --cinza: gray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-login{
+    display: flex;
+}
+.container h3{
+    color: var(--branco);
+}
+
+header {
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(204, 204, 204, 1);
+    box-shadow: 0px 5px 10px 0px rgba(204, 204, 204, 1);
+    
+    padding: 10px 0px;
+    background-color: var(--azul);
+    border-bottom: solid 1px var(--cinza);
+    position: fixed;
+    width: 100%;
+}
+
+header img {
+    width: 80px;
+}
+
+header ul {
+    width: 1120px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+header ul li {
+    margin: 0px 30px;
+}
+a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.home{
+    background-image: linear-gradient(rgba(133, 199, 242, 0.4), rgba(1, 167, 194, 0.4)), url(../imagens/Imagem\ de\ LukasBieri\ por\ Pixabay.jpg) ;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; /*converte a imagem no tamanho da tela*/
+    background-attachment: fixed; /* Deixa um efeito maneiro na imagem */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home h1{
+    font-size: 70px;
+}
+.home-cursos{
+    display: flex;
+    justify-content: center;
+    
+}
+.container-cursos{
+    display: flex;
+    justify-content: center;
+}
+.card-home{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+    padding-left: 15px;
+    text-align: justify;
+}
+.card-home h5{
+    text-align: center;
+    padding-top: 30px;
+    color: var(--cinzaclaro);
+    font-size: 25px;
+}
+.card-home p{
+    color: var(--azul);
+    font-size: 20px;
+    padding-top: 20px;
+}
+.titulo-qs{
+    text-align: center;
+    background-color: var(--azul);
+    color: var(--branco);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.home-quem-somos{
+    display: flex;
+    justify-content: space-between;
+}
+.home-quem-somos img{
+    width: 400px;
+    height: 300px;
+    padding-left: 110px;
+    margin-right: 70px
+}
+.home-quem-somos h2{
+    color: var(--cinzaescuro);
+    padding: 20px;
+    padding-left: 50px;
+    text-align: center;
+}
+.quem-somos-texto {
+    text-align: justify;
+    padding-right: 100px;
+    padding-top: 60px;
+    padding-left: 70px;
+
+}
+.quem-somos-texto p{
+    text-align: justify;
+    font-size: 25px;
+    color: var(--azul);
+}
+footer{
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: var(--cinzaescuro);
+    color: var(--branco);
+    font-size: 25px;
+    text-align: center;
+}
+.noticias{
+    background-image: linear-gradient(rgba(133, 199, 242, 0.4), rgba(1, 167, 194, 0.4)), url(../imagens/Imagem\ de\ Free-Photos\ por\ Pixabay.jpg) ;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; /*converte a imagem no tamanho da tela*/
+    background-attachment: fixed; /* Deixa um efeito maneiro na imagem */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.noticias h1{
+    font-size: 70px;
+}
+.link-noticia{
+    text-align: center;
+    padding-top: 30px;
+    color: var(--cinzaclaro);
+    font-size: 25px;
+}
+.detalhes{
+    background-image: linear-gradient(rgba(133, 199, 242, 0.4), rgba(1, 167, 194, 0.4)), url(../imagens/Imagem\ de\ Rawpixel\ por\ Pixabay.jpg) ;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; /*converte a imagem no tamanho da tela*/
+    background-attachment: fixed; /* Deixa um efeito maneiro na imagem */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.detalhes h1{
+    font-size: 70px;
+}
+.titulo-detalhes h1{
+    text-align: center;
+    color: var(--azul);
+    font-size: 35px;
+}
+.titulo-detalhes p{
+    text-align: center;
+    color: var(--cinza);
+    font-size: 25px;
+}
+.formulario-detalhes{
+    margin: auto;
+    width: 90%;
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    height: 80%;
+}
+#form-cadastrar-contato{
+    width: 40%;
+    margin: auto;
+    background-color: var(--azul);
+    padding: 70px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+.input_form_cad{
+    width: 25vh;
+    height: 4vh;
+    margin-bottom: 2vh;
+    border-radius: 3px;
+    border: none;
+}
+#cad-detalhe{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.lbl-form-cad-prod{
+    padding: 10px 10px;
+    font-size: 20px;
+    color: var(--branco);
+}
+.btn-cadastrar{
+    width: 22vh;
+    height: 6vh;
+    font-size: 1.2em;
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    background-color: var(--branco);
+    color: var(--azul);
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.catalago-cursos{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.card-cursos{
+    margin-right: 20px;
+    margin-bottom: 70px;
+    padding-left: 15px;
+    text-align: justify;
+}
+.card-img-top{
+    width: 245px;
+}
+.card-title{
+    text-align: left;
+    padding-top: 30px;
+    color: var(--cinzaclaro);
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.card-text-curso{
+    color: var(--azul);
+    text-align: left;
+}
+.btn-curso{
+    color: var(--cinza);
+    font-size: 20px;
+    align-items: center;
+}
+
+.cursos{
+    background-image: linear-gradient(rgba(133, 199, 242, 0.4), rgba(1, 167, 194, 0.4)), url(../imagens/Imagem\ de\ FreeImagens\ por\ Pixabay1.jpg) ;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; /*converte a imagem no tamanho da tela*/
+    background-attachment: fixed; /* Deixa um efeito maneiro na imagem */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cursos h1{
+    font-size: 70px;
+}
+.titulo-cursos h1{
+    text-align: center;
+    color: var(--azul);
+    font-size: 35px;
+}
+
+.disciplina{
+    background-image: linear-gradient(rgba(133, 199, 242, 0.4), rgba(1, 167, 194, 0.4)), url(../imagens/Imagem\ de\ StartupStockPhotos1\ por\ Pixabay.jpg) ;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; /*converte a imagem no tamanho da tela*/
+    background-attachment: fixed; /* Deixa um efeito maneiro na imagem */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.disciplina h1{
+    font-size: 70px;
+}
+.titulo-disciplina h1{
+    text-align: center;
+    color: var(--azul);
+    font-size: 35px;
+}
